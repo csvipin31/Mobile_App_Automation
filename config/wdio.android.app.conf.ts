@@ -33,10 +33,10 @@ export const config: WebdriverIO.Config = {
             // The path to the app
             'appium:app': join(
                 process.cwd(),
-                'apps',
+                'downloads/android',
                 //
                 // NOTE: Change this name according to the app version you downloaded
-                'mydeal_dev.apk',
+                'android_app-dev-release-bitrise-signed.apk',
             ),
             'appium:appPackage': 'com.appetiser.mydeal.dev',
             'appium:appActivity': 'com.appetiser.mydeal.features.main.MainActivity',

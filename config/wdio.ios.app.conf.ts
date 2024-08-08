@@ -18,7 +18,7 @@ export const config: WebdriverIO.Config = {
     capabilities: [
         {
             // The defaults you need to have in your config
-            platformName:'iOS',
+            platformName: 'iOS',
             maxInstances: 1,
             // For W3C the appium capabilities need to have an extension prefix
             // This is `appium:` for all Appium Capabilities which can be found here
@@ -35,9 +35,9 @@ export const config: WebdriverIO.Config = {
             // The path to the app
             'appium:app': join(
                 process.cwd(),
-                'apps',
+                'downloads/ios',
                 // Change this name according to the app version you downloaded
-                'Mydeal.app'
+                'ios_Mydeal.ipa'
             ),
             'appium:bundleId': 'com.appetiser.mydeal-stage',
             'appium:newCommandTimeout': 240,

@@ -10,3 +10,5 @@ chromeDriver
 chromedriver-mobile
 .tmp
 *.mp4
+downloads/
+.env
